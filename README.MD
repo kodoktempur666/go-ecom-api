@@ -1,4 +1,3 @@
-# Go E-Commerce API
 
 ## Prequisite
 
@@ -11,14 +10,7 @@ Opsional:
 - `sqlc` jika ingin menghasilkan ulang kode query SQL dari file `queries.sql`
 - `goose` untuk migrasi tabel ke database
 
-## Struktur Utama
 
-- `cmd/main.go` - entrypoint server
-- `internal/env/env.go` - helper untuk membaca variabel environment
-- `internal/products/handlers.go` - HTTP handler untuk endpoint produk
-- `internal/products/service.go` - service untuk logika produk
-- `internal/adapters/postgresql/migrations/00002_create_products.sql` - skema tabel produk
-- `internal/adapters/postgresql/sqlc/` - hasil generate SQLC untuk query database
 
 ## Langkah Persiapan
 
